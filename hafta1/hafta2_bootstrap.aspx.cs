@@ -5,16 +5,13 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace ileri_web_programlama
+namespace hafta2
 {
-    public partial class index : System.Web.UI.Page
+    public partial class Hafta2_bootstrap : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
 
-
         }
-
-
     }
 }

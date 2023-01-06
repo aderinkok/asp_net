@@ -1,6 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="ileri_web_programlama.index" %>
-
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
@@ -53,21 +51,20 @@
                 <div class="row">
                     <div class="col-md-3">
                         <ul class="list-group">
-                            <li class="list-group-item bg-dark text-light">Uygulamalar</li>
-                            <li class="list-group-item d-flex justify-content-between align-items-center"><a href="hafta2_bootstrap.aspx">Hafta 2 (U1 - Bootstrap)</a>
+                            <li class="list-group-item bg-dark text-light">Kategoriler</li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">Kategori 1
+    <span class="badge bg-primary rounded-pill">0</span>
                             </li>
-                            <li class="list-group-item d-flex justify-content-between align-items-center"><a href="hafta2_isim.aspx">Hafta 2 (U2 - İsim Yazdırma)</a>
-                            </li>
-                            <li class="list-group-item d-flex justify-content-between align-items-center"><a href="hafta3_hesap_makinasi.aspx">Hafta 3 (U3 - Hesap Makinası)</a>
-                            <li class="list-group-item d-flex justify-content-between align-items-center"><a href="hafta3_tablo_olusturma.aspx">Hafta 3 (U4 - Tablo Oluşturma)</a>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">Kategori 2
+    <span class="badge bg-primary rounded-pill">0</span>
                             </li>
                             <li class="list-group-item d-flex justify-content-between align-items-center">Kategori 3
+    <span class="badge bg-primary rounded-pill">0</span>
                             </li>
                         </ul>
                     </div>
                     <div class="col-md-6">
 
-   
 
 
                     </div>

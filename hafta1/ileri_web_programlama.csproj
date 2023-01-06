@@ -84,6 +84,11 @@
     <Content Include="css\bootstrap.rtl.css" />
     <Content Include="css\bootstrap.rtl.min.css" />
     <Content Include="css\custom.css" />
+    <Content Include="hafta2_bootstrap.aspx" />
+    <Content Include="hafta2_isim.aspx" />
+    <Content Include="hafta3_hesap_makinasi.aspx" />
+    <Content Include="hafta3_tablo_olusturma.aspx" />
+    <Content Include="hafta4_dropdownlist.aspx" />
     <Content Include="index.aspx" />
     <Content Include="js\bootstrap.bundle.js" />
     <Content Include="js\bootstrap.bundle.min.js" />
@@ -94,6 +99,41 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="hafta2_bootstrap.aspx.cs">
+      <DependentUpon>hafta2_bootstrap.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="hafta2_bootstrap.aspx.designer.cs">
+      <DependentUpon>hafta2_bootstrap.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="hafta2_isim.aspx.cs">
+      <DependentUpon>hafta2_isim.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="hafta2_isim.aspx.designer.cs">
+      <DependentUpon>hafta2_isim.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="hafta3_hesap_makinasi.aspx.cs">
+      <DependentUpon>hafta3_hesap_makinasi.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="hafta3_hesap_makinasi.aspx.designer.cs">
+      <DependentUpon>hafta3_hesap_makinasi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="hafta3_tablo_olusturma.aspx.cs">
+      <DependentUpon>hafta3_tablo_olusturma.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="hafta3_tablo_olusturma.aspx.designer.cs">
+      <DependentUpon>hafta3_tablo_olusturma.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="hafta4_dropdownlist.aspx.cs">
+      <DependentUpon>hafta4_dropdownlist.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="hafta4_dropdownlist.aspx.designer.cs">
+      <DependentUpon>hafta4_dropdownlist.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>
@@ -101,6 +141,13 @@
     </Compile>
     <Compile Include="index.aspx.designer.cs">
       <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="uygulama.Master.cs">
+      <DependentUpon>uygulama.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="uygulama.Master.designer.cs">
+      <DependentUpon>uygulama.Master</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -127,6 +174,7 @@
     <Content Include="js\bootstrap.esm.min.js.map" />
     <Content Include="js\bootstrap.js.map" />
     <Content Include="js\bootstrap.min.js.map" />
+    <Content Include="uygulama.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

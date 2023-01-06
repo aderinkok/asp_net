@@ -7,21 +7,12 @@
 // </otomatik olarak oluşturulmuş>
 //------------------------------------------------------------------------------
 
-namespace hafta3
+namespace hafta1
 {
 
 
-    public partial class index
+    public partial class hafta3_hesap_makinasi
     {
-
-        /// <summary>
-        /// form1 denetimi.
-        /// </summary>
-        /// <remarks>
-        /// Otomatik olarak oluşturulan alan.
-        /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
 
         /// <summary>
         /// deger denetimi.
@@ -166,5 +157,23 @@ namespace hafta3
         /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button arti;
+
+        /// <summary>
+        /// sifir denetimi.
+        /// </summary>
+        /// <remarks>
+        /// Otomatik olarak oluşturulan alan.
+        /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button sifir;
+
+        /// <summary>
+        /// sonuc denetimi.
+        /// </summary>
+        /// <remarks>
+        /// Otomatik olarak oluşturulan alan.
+        /// Değiştirmek için, alan bildirimini tasarımcı dosyasından arka plan kod dosyasına taşıyın.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label sonuc;
     }
 }

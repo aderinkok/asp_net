@@ -1,0 +1,54 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="uygulama.master.cs" Inherits="hafta1.uygulama" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <link href="../css/bootstrap.css" rel="stylesheet" />
+    <link href="../css/custom.css" rel="stylesheet" />
+    <title>
+        <asp:ContentPlaceHolder ID="head" runat="server">
+        </asp:ContentPlaceHolder>
+        - İleri Web Programlama
+    </title>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 d-flex justify-content-center">
+                    <div class="jumbotron">
+                        <h1 class="display-4">Hafta
+                            <asp:ContentPlaceHolder ID="hafta_s" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </h1>
+                        <p class="lead">
+                            Uygulama -
+                            <asp:ContentPlaceHolder ID="uygulama_no" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </p>
+                        <hr class="my-4">
+                        <p>
+                            <asp:ContentPlaceHolder ID="uygulama_aciklama" runat="server">
+                            </asp:ContentPlaceHolder>
+                        </p>
+
+                    </div>
+                </div>
+
+
+                <div class="col-lg-3"></div>
+
+                <div class="col-lg-6 d-flex justify-content-center">
+                    <asp:ContentPlaceHolder ID="ana_bolum" runat="server">
+                    </asp:ContentPlaceHolder>
+
+                </div>
+                <div class="col-lg-3"></div>
+            </div>
+        </div>
+    </form>
+</body>
+<script type="text/javascript" src="../js/bootstrap.bundle.min.js"></script>
+</html>
