@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // Bir derlemeyle ilgili Genel Bilgiler aşağıdaki öznitelik kümesi kullanılarak 
 // denetlenir. Bir derlemeyle ilişkilendirilmiş bilgileri değiştirmek için bu
 // öznitelik değerlerini değiştirin.
-[assembly: AssemblyTitle("hafta1")]
+[assembly: AssemblyTitle("ileri_web_programlama")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("hafta1")]
+[assembly: AssemblyProduct("ileri_web_programlama")]
 [assembly: AssemblyCopyright("Copyright ©  2023")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

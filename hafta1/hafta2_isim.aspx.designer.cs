@@ -7,7 +7,7 @@
 // </otomatik olarak oluşturulmuş>
 //------------------------------------------------------------------------------
 
-namespace hafta1
+namespace ileri_web_programlama
 {
 
 

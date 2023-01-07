@@ -6,7 +6,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace hafta1
+namespace ileri_web_programlama
 {
     public partial class hafta3_hesap_makinasi : System.Web.UI.Page
     {

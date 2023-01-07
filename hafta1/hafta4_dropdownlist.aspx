@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/uygulama.Master" AutoEventWireup="true" CodeBehind="hafta4_dropdownlist.aspx.cs" Inherits="hafta1.hafta4_dropdownlist" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/uygulama.Master" AutoEventWireup="true" CodeBehind="hafta4_dropdownlist.aspx.cs" Inherits="ileri_web_programlama.hafta4_dropdownlist" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
     Dropdownlist 4. Hafta
 </asp:Content>

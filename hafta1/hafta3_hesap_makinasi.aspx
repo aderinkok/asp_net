@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true"   MasterPageFile="~/uygulama.Master" CodeBehind="hafta3_hesap_makinasi.aspx.cs" Inherits="hafta1.hafta3_hesap_makinasi" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true"   MasterPageFile="~/uygulama.Master" CodeBehind="hafta3_hesap_makinasi.aspx.cs" Inherits="ileri_web_programlama.hafta3_hesap_makinasi" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="hafta_s" runat="server">
