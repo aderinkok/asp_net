@@ -106,7 +106,13 @@ namespace ileri_web_programlama
             if (d == "/")
             {
                 deger.Text = Convert.ToString(a / b);
-                sonuc.Text = Convert.ToString(a) + "/" + Convert.ToString(b) + "=" + Convert.ToString(a / b);
+                if (b == 0) {
+                    Response.Write("<script>alert('Matematikte herhangi bir sayı sıfıra BÖLÜNEMEZ!');</script>");
+                }
+                else
+                {
+                    sonuc.Text = Convert.ToString(a) + "/" + Convert.ToString(b) + "=" + Convert.ToString(a / b);
+                }
             }
         }
         public void Silme_click(object sender, EventArgs e)

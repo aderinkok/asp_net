@@ -9,11 +9,27 @@
     <link href="../css/custom.css" rel="stylesheet" />
     <title>
         <asp:ContentPlaceHolder ID="head" runat="server">
+             - İleri Web Programlama
         </asp:ContentPlaceHolder>
-        - İleri Web Programlama
+       
     </title>
 </head>
 <body>
+       <header>
+            <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.aspx">Giriş</a>
+                    <button class="navbar-toggler text-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  
+
+                    </div>
+                </div>
+            </nav>
+
+        </header>
     <form id="form1" runat="server">
         <div class="container-fluid">
             <div class="row">
@@ -36,14 +52,10 @@
 
                     </div>
                 </div>
-
-
                 <div class="col-lg-3"></div>
-
                 <div class="col-lg-6 d-flex justify-content-center">
                     <asp:ContentPlaceHolder ID="ana_bolum" runat="server">
                     </asp:ContentPlaceHolder>
-
                 </div>
                 <div class="col-lg-3"></div>
             </div>
