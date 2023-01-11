@@ -81,7 +81,13 @@
                                     <a href="hafta5_tarih.aspx">Hafta 5 (U9 - Calendar)</a>
                                 </li> 
                                 <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    <a href="hafta5_wizard_fileupload.aspx">Hafta 5 (U10 - Wizar/File Upload)</a>
+                                    <a href="hafta5_wizard_fileupload.aspx">Hafta 5 (U10 - Wizard/File Upload)</a>
+                                </li> 
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <a href="hafta6_check_radio.aspx">Hafta 6 (U11 - CheckBox/Radio Button)</a>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <a href="hafta6_validationForms.aspx">Hafta 6 (U12 - Validation)</a>
                                 </li>
                         </ul>
                     </div>
