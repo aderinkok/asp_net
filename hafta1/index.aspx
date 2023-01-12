@@ -88,10 +88,17 @@
                                 </li>
                                 <li class="list-group-item d-flex justify-content-between align-items-center">
                                     <a href="hafta6_validationForms.aspx">Hafta 6 (U12 - Validation)</a>
+                                </li> 
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    <a href="hafta7_db.aspx">Hafta 7 (U13 - Veritabanı-1)</a>
+                                </li> 
+                                <li class="list-group-item d-flex justify-content-between align-items-center bg-dark">
+                                    <a class="text-white" href="kaynakca.aspx">Kaynakça</a>
                                 </li>
                         </ul>
                     </div>
                     <div class="col-md-6">
+                        <p>test</p>
                     </div>
                     <div class="col-md-3">
                     </div>

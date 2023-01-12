@@ -130,11 +130,11 @@ namespace hafta1
         {
             if (bolum.SelectedIndex < 0)
             {
-                args.IsValid = true;
+                args.IsValid = false;
             }
             else
             {
-                args.IsValid = false;
+                args.IsValid = true;
             }
         }
     }
