@@ -97,6 +97,7 @@
     <Content Include="hafta6_check_radio.aspx" />
     <Content Include="hafta6_validationForms.aspx" />
     <Content Include="hafta7_db.aspx" />
+    <Content Include="hafta9_uyelikFormu.aspx" />
     <Content Include="index.aspx" />
     <Content Include="js\bootstrap.bundle.js" />
     <Content Include="js\bootstrap.bundle.min.js" />
@@ -199,6 +200,13 @@
     </Compile>
     <Compile Include="hafta7_db.aspx.designer.cs">
       <DependentUpon>hafta7_db.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="hafta9_uyelikFormu.aspx.cs">
+      <DependentUpon>hafta9_uyelikFormu.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="hafta9_uyelikFormu.aspx.designer.cs">
+      <DependentUpon>hafta9_uyelikFormu.aspx</DependentUpon>
     </Compile>
     <Compile Include="kaynakca.aspx.cs">
       <DependentUpon>kaynakca.aspx</DependentUpon>

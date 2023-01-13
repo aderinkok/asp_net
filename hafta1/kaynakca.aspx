@@ -142,6 +142,10 @@ m</li>
                             </li>
                             <li class="list-group-item">https://stackoverflow.com/questions/48701644/using-parsley-js-validation-with-asp-net-form
                             </li>
+                            <li class="list-group-item">https://learn.microsoft.com/en-us/dotnet/standard/base-types/regular-expressions
+                            </li>
+                            <li class="list-group-item">http://www.yazilimmutfagi.com/index.php/2020/04/24/asp-net-c-icin-regex-regular-expressions-notlari-1/
+                            </li>
 
                         </ul>
                      

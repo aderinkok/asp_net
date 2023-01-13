@@ -9,7 +9,7 @@
     12
 </asp:Content>
 <asp:Content ID="Content4" ContentPlaceHolderID="uygulama_aciklama" runat="server">
-    Ad-soyad ekleme,silme, güncelleme, görüntüleme (Temel CRUD işlemleri), Textbox, Label, Button kullanarak.
+    Ad-soyad ekleme,silme, güncelleme, görüntüleme (Temel CRUD işlemleri), Textbox, Label, Button, Gridview kullanarak.
     <ol class="list-group list-group-numbered">
         <li class="list-group-item d-flex justify-content-between align-items-start">
             <div class="ms-2 me-auto">

@@ -78,9 +78,9 @@ namespace hafta1
         private void sil(int id)
         {
 
-            SqlCommand silKomutu = new SqlCommand("DELETE FROM ornekTablo WHERE id=@id", Db.baglanti);
-            silKomutu.Parameters.AddWithValue("@id", id);
-            silKomutu.ExecuteNonQuery();
+            SqlCommand komut = new SqlCommand("DELETE FROM ornekTablo WHERE id=@id", Db.baglanti);
+            komut.Parameters.AddWithValue("@id", id);
+            komut.ExecuteNonQuery();
             Session.Add("IslemSonuc", id + " nolu kayıt Silindi! ");
             yonlendir();
             // Response.Redirect("derinkok.com.tr");
@@ -88,11 +88,11 @@ namespace hafta1
         private void guncelle(int id,string ad,string soyad)
         {
      
-            SqlCommand guncelleKomutu = new SqlCommand("UPDATE ornekTablo SET ad=@ad,soyad=@soyad WHERE id=@id", Db.baglanti);
-            guncelleKomutu.Parameters.AddWithValue("@ad", ad);
-            guncelleKomutu.Parameters.AddWithValue("@soyad", soyad);
-            guncelleKomutu.Parameters.AddWithValue("@id", id);
-            guncelleKomutu.ExecuteNonQuery();
+            SqlCommand komut = new SqlCommand("UPDATE ornekTablo SET ad=@ad,soyad=@soyad WHERE id=@id", Db.baglanti);
+            komut.Parameters.AddWithValue("@ad", ad);
+            komut.Parameters.AddWithValue("@soyad", soyad);
+            komut.Parameters.AddWithValue("@id", id);
+            komut.ExecuteNonQuery();
             lbl_bilgi.Text = id + " nolu kayıt güncellendi! ";
             Session.Add("IslemSonuc", id + " nolu kayıt güncellendi! ");
             yonlendir();
@@ -102,10 +102,10 @@ namespace hafta1
         {
             string ad = txt_ad.Text;
             string soyad = txt_soyad.Text;
-            SqlCommand guncelleKomutu = new SqlCommand("INSERT ornekTablo VALUES(@ad,@soyad)", Db.baglanti);
-            guncelleKomutu.Parameters.AddWithValue("@ad", ad);
-            guncelleKomutu.Parameters.AddWithValue("@soyad", soyad);
-            guncelleKomutu.ExecuteNonQuery();
+            SqlCommand komut = new SqlCommand("INSERT ornekTablo VALUES(@ad,@soyad)", Db.baglanti);
+            komut.Parameters.AddWithValue("@ad", ad);
+            komut.Parameters.AddWithValue("@soyad", soyad);
+            komut.ExecuteNonQuery();
             Session.Add("IslemSonuc", "Yeni kayıt oluşturuldu! ");
             yonlendir();
         }

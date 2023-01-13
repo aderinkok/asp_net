@@ -61,40 +61,43 @@
                                 <a href="hafta2_isim.aspx">Hafta 2 (U2 - İsim Yazdırma)</a>
                             </li>
                             <li class="list-group-item d-flex justify-content-between align-items-center">
-                                <a href="hafta3_hesap_makinasi.aspx">Hafta 3 (U3 - Hesap Makinası)</a>
-                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    <a href="hafta3_tablo_olusturma.aspx">Hafta 3 (U4 - Tablo Oluşturma)</a>
-                                </li>
-                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    <a href="hafta4_listbox.aspx">Hafta 4 (U5 - Listbox)</a>
-                                </li>
-                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    <a href="hafta4_listbox2.aspx">Hafta 4 (U6 - Listbox - 2)</a>
-                                </li>
-                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    <a href="hafta4_dropdown.aspx">Hafta 4 (U7 - Dropdown)</a>
-                                </li>
-                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    <a href="hafta4_dropdown2.aspx">Hafta 4 (U8 - Dropdown - 2)</a>
-                                </li> 
-                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    <a href="hafta5_tarih.aspx">Hafta 5 (U9 - Calendar)</a>
-                                </li> 
-                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    <a href="hafta5_wizard_fileupload.aspx">Hafta 5 (U10 - Wizard/File Upload)</a>
-                                </li> 
-                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    <a href="hafta6_check_radio.aspx">Hafta 6 (U11 - CheckBox/Radio Button)</a>
-                                </li>
-                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    <a href="hafta6_validationForms.aspx">Hafta 6 (U12 - Validation)</a>
-                                </li> 
-                                <li class="list-group-item d-flex justify-content-between align-items-center">
-                                    <a href="hafta7_db.aspx">Hafta 7 (U13 - Veritabanı-1)</a>
-                                </li> 
-                                <li class="list-group-item d-flex justify-content-between align-items-center bg-dark">
-                                    <a class="text-white" href="kaynakca.aspx">Kaynakça</a>
-                                </li>
+                                <a href="hafta3_hesap_makinasi.aspx">Hafta 3 (U3 - Hesap Makinası)</a></li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                <a href="hafta3_tablo_olusturma.aspx">Hafta 3 (U4 - Tablo Oluşturma)</a>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                <a href="hafta4_listbox.aspx">Hafta 4 (U5 - Listbox)</a>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                <a href="hafta4_listbox2.aspx">Hafta 4 (U6 - Listbox - 2)</a>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                <a href="hafta4_dropdown.aspx">Hafta 4 (U7 - Dropdown)</a>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                <a href="hafta4_dropdown2.aspx">Hafta 4 (U8 - Dropdown - 2)</a>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                <a href="hafta5_tarih.aspx">Hafta 5 (U9 - Calendar)</a>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                <a href="hafta5_wizard_fileupload.aspx">Hafta 5 (U10 - Wizard/File Upload)</a>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                <a href="hafta6_check_radio.aspx">Hafta 6 (U11 - CheckBox/Radio Button)</a>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                <a href="hafta6_validationForms.aspx">Hafta 6 (U12 - Validation)</a>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                <a href="hafta7_db.aspx">Hafta 7 (U13 - Veritabanı-1)</a>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center">
+                                <a href="hafta9_uyelikFormu.aspx">Hafta 9 (U14 - Veritabanı-2)</a>
+                            </li>
+                            <li class="list-group-item d-flex justify-content-between align-items-center bg-dark">
+                                <a class="text-white" href="kaynakca.aspx">Kaynakça</a>
+                            </li>
                         </ul>
                     </div>
                     <div class="col-md-6">
